@@ -10,7 +10,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/gabrielrcosta1/projects-base-laraveln"
+            "url": "https://github.com/gabrielrcosta1/projects-base-laravel"
         }
     ],
     "license": "MIT",
