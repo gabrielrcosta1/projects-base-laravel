@@ -7,7 +7,16 @@
         "laravel",
         "framework"
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/gabrielrcosta1/projects-base-laraveln"
+        }
+    ],
     "license": "MIT",
+    "replace": {
+    "laravel/laravel": "*"
+    },
     "require": {
         "php": "^8.3",
         "laravel/framework": "^12.0",
@@ -16,11 +25,12 @@
     "require-dev": {
         "fakerphp/faker": "^1.23",
         "laravel/pail": "^1.2.2",
-        "laravel/pint": "^1.13",
+        "laravel/pint": "^1.21",
         "laravel/sail": "^1.41",
         "mockery/mockery": "^1.6",
         "nunomaduro/collision": "^8.6",
-        "pestphp/pest": "^3.8"
+        "pestphp/pest": "^3.8",
+        "phpstan/phpstan": "^2.1"
     },
     "autoload": {
         "psr-4": {

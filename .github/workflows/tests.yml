@@ -46,5 +46,8 @@ jobs:
       - name: Generate Application Key
         run: php artisan key:generate
 
+      - name: Run phpStan
+        run: ./vendor/bin/phpstan analyse --memory-limit=1G
+
       - name: Tests
         run: ./vendor/bin/pest
