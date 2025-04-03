@@ -1,8 +1,10 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/laravel",
-    "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
+    "name": "gabrielrcosta1/projects-base-laravel",
+    "type": "library",
+    "description": "Base Laravel project for Gabriel R. Costa.",
+    "version": "1.0.0",
+    "homepage": "https://github.com/gabrielrcosta1/projects-base-laravel",
     "keywords": [
         "laravel",
         "framework"
