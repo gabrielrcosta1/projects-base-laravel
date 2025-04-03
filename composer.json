@@ -1,7 +1,7 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
     "name": "gabrielrcosta1/projects-base-laravel",
-    "type": "library",
+    "type": "project",
     "description": "Base Laravel project for Gabriel R. Costa.",
     "version": "1.0.0",
     "homepage": "https://github.com/gabrielrcosta1/projects-base-laravel",
@@ -16,11 +16,8 @@
         }
     ],
     "license": "MIT",
-    "replace": {
-    "laravel/laravel": "*"
-    },
     "require": {
-        "php": "^8.3",
+        "php": "^8.2",
         "laravel/framework": "^12.0",
         "laravel/tinker": "^2.10.1"
     },
